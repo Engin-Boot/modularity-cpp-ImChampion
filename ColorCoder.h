@@ -33,7 +33,8 @@ namespace TelCoColorCoder
                 colorPairStr += " ";
                 colorPairStr += MinorColorNames[minorColor];
                 return colorPairStr;
-            }};
+            }
+    };
     ColorPair GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor = 
